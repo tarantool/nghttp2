@@ -499,7 +499,7 @@ install(FILES README.rst DESTINATION "${CMAKE_INSTALL_DOCDIR}")
 
 add_subdirectory(lib)
 #add_subdirectory(lib/includes)
-add_subdirectory(third-party)
+#add_subdirectory(third-party)  # disabled in tarantool
 add_subdirectory(src)
 #add_subdirectory(src/includes)
 add_subdirectory(examples)
